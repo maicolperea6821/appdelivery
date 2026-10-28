@@ -8,21 +8,21 @@ INSERT INTO Usuario (ID_Usuario, Nombre, Email, Telefono) VALUES
   (5, 'luis ramirez',  'luisramirez@gmail.com',  '3112223344'),
   (6, 'sofia castro',  'sofiacastro@gmail.com',  '3207776655');
 
-INSERT INTO Repartidor (ID_Repartidor, Nombre, Vehiculo) VALUES
-  (1, 'carlos ruiz',    'moto'),
-  (2, 'andrea torres',  'bicicleta'),
-  (3, 'miguel soto',    'moto'),
-  (4, 'paola diaz',     'carro'),
-  (5, 'jorge mejia',    'bicicleta'),
-  (6, 'daniela rojas',  'moto');
+INSERT INTO Repartidor (ID_Repartidor, Nombre,Telefono,  Vehiculo) VALUES
+  (1, 'carlos ruiz', '3135667203',   'moto'),
+  (2, 'andrea torres','3102577243',  'bicicleta'),
+  (3, 'miguel soto',  '3175007203',  'moto'),
+  (4, 'paola diaz',   '3208767207',  'carro'),
+  (5, 'jorge mejia',  '3135347288',  'bicicleta'),
+  (6, 'daniela rojas','3218765922',  'moto');
 
-INSERT INTO Restaurante (ID_Restaurante, Nombre, Categoria, Calificacion, Icono_Categoria) VALUES
-  (1, 'burger house',     'Hamburguesas', 4.5, '/icons/burger.png'),
-  (2, 'pizzeria napoli',  'Pizza',        4.2, '/icons/pizza.png'),
-  (3, 'sushi zen',        'Sushi',        4.7, '/icons/sushi.png'),
-  (4, 'dulce tentacion',  'Postres',      4.0, '/icons/dessert.png'),
-  (5, 'taco loco',        'Mexicana',     4.3, '/icons/taco.png'),
-  (6, 'pollo brasa',      'Pollo',        4.1, '/icons/chicken.png');
+INSERT INTO Restaurante (ID_Restaurante, Nombre, Direccion, Categoria, Calificacion, Icono_Categoria) VALUES
+  (1, 'burger house',   'Calle Mayor 45, Bajo B, 28013 Madrid',  'Hamburguesas', 4.5, '/icons/burger.png'),
+  (2, 'pizzeria napoli','Avenida de la Constitución 12, 3º Izquierda, 41001 Sevilla',  'Pizza',        4.2, '/icons/pizza.png'),
+  (3, 'sushi zen',      'Carrer de Mallorca 234, Planta 2, Puerta 1, 08008 Barcelona',  'Sushi',        4.7, '/icons/sushi.png'),
+  (4, 'dulce tentacion','Paseo de la Castellana 89, Piso 5A, 28046 Madrid',  'Postres',      4.0, '/icons/dessert.png'),
+  (5, 'taco loco',      'Calle de Colón 7, Principal 2ª, 46004 Valencia',  'Mexicana',     4.3, '/icons/taco.png'),
+  (6, 'pollo brasa',    'Avenida de la Libertad 18, 4º Derecha, 20004 San Sebastián',  'Pollo',        4.1, '/icons/chicken.png');
 
 INSERT INTO Plato (ID_Plato, ID_Restaurante, Nombre, Precio) VALUES
   (1,  1, 'hamburguesa doble',    12.50),
